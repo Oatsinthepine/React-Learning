@@ -3,6 +3,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Button from './Button.jsx'
 import MyComponent from './MyComponent.jsx'
+import Object from "./Array_Object.jsx";
+import {Array} from "./Array_Object.jsx";
+import {ArrayOfObjects} from "./Array_Object.jsx";
 
 function App() {
     return (
@@ -20,6 +23,15 @@ function App() {
                     <Button />
                     <div>
                         <MyComponent />
+                    </div>
+                    <div>
+                        <Object/>
+                    </div>
+                    <div>
+                        <Array/>
+                    </div>
+                    <div>
+                        <ArrayOfObjects/>
                     </div>
                 </main>
         </div>
